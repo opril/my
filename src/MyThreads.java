@@ -4,8 +4,6 @@ public class MyThreads {
     public static final int THREADS = 10;
 
     public static void main(String[] args) {
-        System.out.println("helllooooo");
-
         Random rnd = new Random();
 
         final int[] starts = new int [THREADS];
